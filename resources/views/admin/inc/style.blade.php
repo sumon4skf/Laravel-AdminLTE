@@ -1,15 +1,15 @@
 
 
-<link rel="stylesheet" href="{{ asset("admin/bower_components/bootstrap/dist/css/bootstrap.min.css") }}">
-<link rel="stylesheet" href="{{ asset("admin/bower_components/font-awesome/css/font-awesome.min.css") }}">
-<link rel="stylesheet" href="{{ asset("admin/bower_components/Ionicons/css/ionicons.min.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/bower_components/bootstrap/dist/css/bootstrap.min.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/bower_components/font-awesome/css/font-awesome.min.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/bower_components/Ionicons/css/ionicons.min.css") }}">
 
 {{-- custom css file replace form custom page --}}
 @yield('custom-css-file')
 
-<link rel="stylesheet" href="{{ asset("admin/dist/css/AdminLTE.min.css") }}">
-<link rel="stylesheet" href="{{ asset("admin/dist/css/skins/skin-blue.min.css") }}">
-<link rel="stylesheet" href="{{ asset("admin/admin.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/dist/css/AdminLTE.min.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/dist/css/skins/skin-blue.min.css") }}">
+<link rel="stylesheet" href="{{ asset("assets/admin.css") }}">
 
 <!-- Google Font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
